@@ -20,12 +20,12 @@ headers = [
 
 # Add the column names for each hole
 for i in range(1,19):
-    headers.append(f"'Hole {i} Time',")
-    headers.append(f"'Hole {i} Par',")
-    headers.append(f"'Hole {i} Strokes',")
-    headers.append(f"'Hole {i} Handicap Score',")
-    headers.append(f"'Hole {i} Lat',")
-    headers.append(f"'Hole {i} Lon',")
+    headers.append(f'Hole {i} Time')
+    headers.append(f'Hole {i} Par')
+    headers.append(f'Hole {i} Strokes')
+    headers.append(f'Hole {i} Handicap Score')
+    headers.append(f'Hole {i} Lat')
+    headers.append(f'Hole {i} Lon')
 
 for i, item in enumerate(data['details']):
     if i == 0:
